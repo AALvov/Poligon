@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полигон</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./libs/swiper.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container" style="text-align:center;">
+    <img src="./img/logo-gda-sinij.png" style="width: 250px;"  alt="">
+    <div class="text__content" style="width:calc(100% - 250px);">
+      <h1 class="maket__name-first" style="color:white; font-size: 36px; margin: 0 auto; " > Опытный полигон испытаний газопромыслового оборудования и&nbsp;материалов <br> для сероводородосодержащих сред ЦНИПР ГПУ</h1>
+    </div>
+  </div>
+</header>
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><a href="/poligon.html"><img src="./img/1.post.jpg" alt=""></a></div>
+      <div class="swiper-slide"><a href="/poligon.html"><img src="./img/2.post.jpg" alt=""></a></div>
+      <div class="swiper-slide"><a href="/poligon.html"><img src="./img/3_post.jpg" alt=""></a></div>
+      <div class="swiper-slide"><a href="/poligon.html"><img src="./img/4_post.jpg" alt=""></a></div>
+     </div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+<script src="./libs/swiper.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  autoplay:{
+    delay: 5000,
+  },
+  autoheight:true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+});
+
+</script>
+</body>
+</html>
