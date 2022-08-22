@@ -15,7 +15,7 @@
 
     <div class="text__content" style="width:calc(100% - 250px);">
 
-      <h1 class="maket__name-first" style="color:white; font-size: 36px; margin: 0 auto; " > Опытный полигон испытаний газопромыслового оборудования и&nbsp;материалов <br> для сероводородосодержащих сред ЦНИПР ГПУ</h1>
+      <h1 class="maket__name-first" style="color:white; font-size: 36px; margin: 0 auto; " > Опытный полигон испытаний газопромыслового оборудования и&nbsp;материалов <br> для сероводородосодержащих сред</h1>
 
     </div>
   </div>
@@ -27,9 +27,10 @@
     <button class="btn__first-second"></button>
     <button class="btn__second"></button>
     <button class="btn__third"></button>
-    <button class="btn__fourth"></button>
+    <button class="btn__fourth-first"></button>
+    <button class="btn__fourth-second"></button>
     <button class="btn__general"></button>
-
+    <button class="btn__inside"></button>
 
   </div>
   <div class="text__container" style="font-size: 26px; text-align: justify; color:rgb(0,32,96)">
@@ -60,7 +61,7 @@
 <div class="modal__window-first-first">
   <div class="modal__container">
     <div class="video__container">
-      <video src="./video/Вид.1.1.mp4" controls loop="true" autoplay="true"></video>
+      <video src="./video/Полигон. Вид.1.1.mp4" controls loop="true" autoplay="true"></video>
     </div>
     <div class="text__content">
       <p>
@@ -258,10 +259,61 @@
     </div>
   </div>
 </div>
-<div class="modal__window-fourth" >
+<div class="modal__window-fourth-first" >
   <div class="modal__container" >
     <div class="video__container">
-      <video src="./video/Вид.4.mp4" width="100%" controls loop="true" autoplay="true"></video>
+      <video src="./video/Полигон. Вид.4.1.mp4" width="100%" controls loop="true" autoplay="true"></video>
+    </div>
+    <div class="text__content">
+      <p>
+        Стенд испытаний опытных образцов фонтанного и&nbsp;устьевого оборудования на&nbsp;давление до&nbsp;110&nbsp;МПа. Предназначен для испытаний трубных и&nbsp;колонных головок, фонтанных елок&nbsp;с. присоединительными размерами до&nbsp;16 3/4&Prime;:
+      </p>
+      <table>
+        <tr>
+          <td>Наименование</td>
+          <td>Значение</td>
+        </tr>
+        <tr>
+          <td>Давление гидроиспытаний</td>
+          <td>до&nbsp;110&nbsp;МПа</td>
+        </tr>
+        <tr>
+          <td>Температура рабочей среды</td>
+          <td>-36 &divide; +40&deg;C </td>
+        </tr>
+        <tr>
+          <td>Габаритные размеры испытываемого оборудования</td>
+          <td>от&nbsp;4 <sup>(1/16)</sup> &quot; (кольцевая прокладка ВХ-155)
+            <br>до 16<sup>(3/4)</sup> &quot; (кольцевая прокладка R-66)</td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            При проведении стендовых и&nbsp;функциональных испытаний опытных образцов могут использоваться среды:
+            <ol>
+              <li>Вода питьевая ГОСТ Р&nbsp;51232, механические примеси не&nbsp;более 5&nbsp;мкм;</li>
+              <li>вода дистиллированная;</li>
+              <li>метанол;</li>
+              <li>дизельное топливо;</li>
+              <li>технологические жидкости;</li>
+              <li>воздух, класс чистоты 684&nbsp;ГОСТ Р&nbsp;ИСО 8573-1;</li>
+              <li>азот (N<sub>2</sub>);</li>
+              <li>метан (СН<sub>4</sub>);</li>
+              <li>пластовая смесь АГКМ</li>
+              <li>смесь углеводородов с&nbsp;содержанием H<sub>2</sub>S до&nbsp;34%</li>
+            </ol>
+          </td>
+
+        </tr>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="modal__window-fourth-second" >
+  <div class="modal__container" >
+    <div class="video__container">
+      <video src="./video/Полигон. Вид.4.2.mp4" width="100%" controls loop="true" autoplay="true"></video>
     </div>
     <div class="text__content">
       <p>
@@ -307,24 +359,31 @@
   <video src="./video/11-12.mp4" autoplay="true" loop="true" width="90%" controls></video>
 </div>
 
+<div class="modal__window-inside" style="width: 90%;text-align:center;">
+  <video src="./video/Полигон. Общий вид.mp4" autoplay="true" loop="true" width="90%" controls></video>
+</div>
+
 <button class="close__btn"></button>
 <script>
 let btn__first_first=document.querySelector('.btn__first-first');
  let btn__first_second=document.querySelector('.btn__first-second');
  let btn__second=document.querySelector('.btn__second');
  let btn__third=document.querySelector('.btn__third');
- let btn__fourth=document.querySelector('.btn__fourth');
+ let btn__fourth_first=document.querySelector('.btn__fourth-first');
+ let btn__fourth_second=document.querySelector('.btn__fourth-second');
  let close__btn=document.querySelector('.close__btn');
 let btn__general=document.querySelector('.btn__general')
+let btn__inside=document.querySelector('.btn__inside')
 
 
  let modal__first_first=document.querySelector('.modal__window-first-first');
  let modal__first_second=document.querySelector('.modal__window-first-second');
  let modal__second=document.querySelector('.modal__window-second');
  let modal__third=document.querySelector('.modal__window-third');
- let modal__fourth=document.querySelector('.modal__window-fourth');
-
+ let modal__fourth_first=document.querySelector('.modal__window-fourth-first');
+ let modal__fourth_second=document.querySelector('.modal__window-fourth-second');
 let modal=document.querySelector('.modal__window');
+let modal__inside=document.querySelector('.modal__window-inside');
 
 
  close__btn.addEventListener('click',function() {
@@ -348,12 +407,20 @@ let modal=document.querySelector('.modal__window');
   modal__third.classList.add('modal__window-active');
   close__btn.style.display='block';
  })
- btn__fourth.addEventListener('click', function () {
-  modal__fourth.classList.add('modal__window-active');
+ btn__fourth_first.addEventListener('click', function () {
+  modal__fourth_first.classList.add('modal__window-active');
+  close__btn.style.display='block';
+ })
+ btn__fourth_second.addEventListener('click', function () {
+  modal__fourth_second.classList.add('modal__window-active');
   close__btn.style.display='block';
  })
 btn__general.addEventListener('click', function () {
   modal.classList.add('modal__window-active');
+  close__btn.style.display='block';
+})
+btn__inside.addEventListener('click', function () {
+  modal__inside.classList.add('modal__window-active');
   close__btn.style.display='block';
 })
 </script>

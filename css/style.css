@@ -25,8 +25,13 @@ img {
   max-width: 100%;
 }
 
+p {
+  margin: 0;
+}
+
 body {
   font-family: 'HeliosCond', 'Montesarat', sans-serif;
+  overflow: hidden;
 }
 
 .container {
@@ -68,25 +73,27 @@ body {
 .btn__first-second,
 .btn__third,
 .btn__second,
-.btn__fourth,
-.btn__general {
+.btn__fourth-first,
+.btn__fourth-second,
+.btn__general,
+.btn__inside {
   position: absolute;
   background: transparent;
   border: none;
-  /* outline: 1px solid red; */
+  outline: 5px solid yellow;
 }
 
 .btn__first-first {
-  bottom: 127px;
-  right: 161px;
-  height: 47px;
-  width: 48px;
+  bottom: 32px;
+  right: 153px;
+  height: 244px;
+  width: 181px;
 }
  .btn__first-second {
-  bottom: 63px;
-  right: 84px;
-  height: 185px;
-  width: 51px;
+  bottom: 32px;
+  right: 62px;
+  height: 244px;
+  width: 86px;
 
  }
 
@@ -104,25 +111,40 @@ body {
   width: 283px;
  }
 
- .btn__fourth {
+ .btn__fourth-first {
   top: 85px;
-  right: 62px;
+  right: 241px;
   height: 253px;
-  width: 342px;
+  width: 159px;
+ }
+
+ .btn__fourth-second {
+  top: 85px;
+  right: 63px;
+  height: 253px;
+  width: 171px;
  }
 
  .btn__general {
-  top: 45%;
-  right: 37%;
-  width: 240px;
-  height: 100px;
+  top: 40%;
+  right: 51%;
+  width: 360px;
+  height: 191px;
  }
+
+.btn__inside {
+  top: 40%;
+  right: 5%;
+  width: 378px;
+  height: 191px;
+}
 
  .modal__window-first-first,
  .modal__window-first-second,
  .modal__window-second,
  .modal__window-third,
- .modal__window-fourth {
+ .modal__window-fourth-first,
+ .modal__window-fourth-second {
   width: 90%;
   display: none;
   padding: 10px;
@@ -138,7 +160,8 @@ body {
   z-index: 2;
  }
 
- .modal__window {
+ .modal__window,
+ .modal__window-inside {
   display: none;
   padding: 10px;
   background: #FFF;
