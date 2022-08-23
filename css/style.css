@@ -99,9 +99,9 @@ body {
 
  .btn__second {
   bottom: 22px;
-  left: 63px;
+  left: 241px;
   height: 315px;
-  width: 375px;
+  width: 193px;
  }
 
  .btn__third {
@@ -112,9 +112,9 @@ body {
  }
 
  .btn__fourth-first {
-  top: 85px;
-  right: 241px;
-  height: 253px;
+  top: 562px;
+  left: 68px;
+  height: 309px;
   width: 159px;
  }
 
@@ -122,7 +122,7 @@ body {
   top: 85px;
   right: 63px;
   height: 253px;
-  width: 171px;
+  width: 340px;
  }
 
  .btn__general {
