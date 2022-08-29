@@ -81,6 +81,7 @@ body {
   background: transparent;
   border: none;
   /* outline: 5px solid yellow; */
+  cursor: pointer;
 }
 
 .btn__first-first {
