@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'HeliosCond';
   src: local ('HeliosCond'), url('../fonts/HeliosCond.woff2') format('woff2'), url('../fonts/HeliosCond.woff') format('woff');
@@ -86,58 +87,58 @@ body {
 
 .btn__first-first {
   bottom: 32px;
-  right: 153px;
-  height: 244px;
-  width: 181px;
+  right: 131px;
+  height: 197px;
+  width: 138px;
 }
  .btn__first-second {
   bottom: 32px;
-  right: 62px;
-  height: 244px;
-  width: 86px;
+  right: 50px;
+  height: 197px;
+  width: 69px;
 
  }
 
  .btn__second {
   bottom: 22px;
-  left: 241px;
-  height: 315px;
-  width: 193px;
+  left: 224px;
+  height: 248px;
+  width: 129px;
  }
 
  .btn__third {
-  top: 85px;
-  left: 75px;
-  height: 255px;
-  width: 283px;
+  top: 81px;
+  left: 68px;
+  height: 201px;
+  width: 221px;
  }
 
  .btn__fourth-first {
-  top: 562px;
-  left: 68px;
-  height: 309px;
+  top: 476px;
+  left: 59px;
+  height: 248px;
   width: 159px;
  }
 
  .btn__fourth-second {
-  top: 85px;
-  right: 63px;
-  height: 253px;
-  width: 340px;
+  top: 81px;
+  right: 56px;
+  height: 200px;
+  width: 275px;
  }
 
  .btn__general {
-  top: 40%;
+  top: 41%;
   right: 51%;
-  width: 360px;
-  height: 191px;
+  width: 279px;
+  height: 144px;
  }
 
 .btn__inside {
-  top: 40%;
-  right: 5%;
-  width: 378px;
-  height: 191px;
+  top: 41%;
+  right: 7%;
+  width: 279px;
+  height: 144px;
 }
 
  .modal__window-first-first,
@@ -156,7 +157,8 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   transition: opacity 0.3s ease-in-out;
   z-index: 2;
  }
@@ -172,7 +174,8 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   transition: opacity 0.3s ease-in-out;
   z-index: 2;
  }
